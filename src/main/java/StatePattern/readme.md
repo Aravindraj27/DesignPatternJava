@@ -23,11 +23,11 @@ It appears as if the object changed its class.
 6. To switch the state of the context, create an instance of one of the state classes and pass it to the context. You can do this within the context itself, or in various states, or in the client. Wherever this is done, the class becomes dependent on the concrete state class that it instantiates.
 ### Pros and Cons
 
-|Pros       | cons                                                                                            |
-|-----------|-------------------------------------------------------------------------------------------------|
+|Pros       | Cons                                                                                             |
+|-----------|--------------------------------------------------------------------------------------------------|
 |``Single Responsibility Principle``. Organize the code related to particular states into separate classes. | Applying the pattern can be overkill if a state machine has only a few states or rarely changes. |
-|``Open/Closed Principle``. Introduce new states without changing existing state classes or the context.|                                                                                                 |
-|Simplify the code of the context by eliminating bulky state machine conditionals.| |
+|``Open/Closed Principle``. Introduce new states without changing existing state classes or the context.|                                                                                                  |
+|Simplify the code of the context by eliminating bulky state machine conditionals.|                                                                                                  |
 
 
 References - https://refactoring.guru/design-patterns/state
