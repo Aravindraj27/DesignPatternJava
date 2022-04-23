@@ -1,7 +1,7 @@
 ### Strategy Pattern
 * Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
 
-## Applications
+### Applications
 * Use the Strategy pattern when you want to use different variants of an algorithm within an object and be able to switch from one algorithm to another during runtime.
 * The Strategy pattern lets you indirectly alter the object’s behavior at runtime by associating it with different sub-objects which can perform specific sub-tasks in different ways.
 * Use the Strategy when you have a lot of similar classes that only differ in the way they execute some behavior.
