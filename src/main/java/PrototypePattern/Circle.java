@@ -15,4 +15,11 @@ public class Circle implements Component{
     public void render() {
         System.out.println("Generate circle");
     }
+
+    @Override
+    public Component clone() {
+        Circle newCircle = new Circle();
+        newCircle.setRadius(radius);
+        return newCircle;
+    }
 }
