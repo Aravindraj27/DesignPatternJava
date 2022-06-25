@@ -21,6 +21,7 @@ It appears as if the object changed its class.
 4. In the context class, add a reference field of the state interface type and a public setter that allows overriding the value of that field.
 5. Go over the method of the context again and replace empty state conditionals with calls to corresponding methods of the state object.
 6. To switch the state of the context, create an instance of one of the state classes and pass it to the context. You can do this within the context itself, or in various states, or in the client. Wherever this is done, the class becomes dependent on the concrete state class that it instantiates.
+7. What comes around goes around
 ### Pros and Cons
 
 |Pros       | Cons                                                                                             |
