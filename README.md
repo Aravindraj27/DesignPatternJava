@@ -1,2 +1,2 @@
 # DesignPatternJava
-Desing Pattern by GOF
+Design Pattern by GOF
